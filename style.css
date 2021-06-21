@@ -1,0 +1,160 @@
+body{
+  margin:0;
+  padding: 0;  
+  background-color: beige;
+}
+  
+p{
+  margin:0;
+  
+}
+h1 { text-align: center }
+
+#grid{
+  height: 1500px;
+  width:100vw;
+  background-color:lightgreen;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: flex-end; */
+}
+
+#header{
+  flex: 20%;
+
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  /* align-items: center; */
+  position: sticky;
+  top:0;
+  background-color: whitesmoke;
+ font-family: 'Roboto Slab', serif;
+}
+
+#main_body{
+  flex: 50%;
+
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+/* align-items: center; */
+
+  background-color: beige;
+ font-family: 'Roboto Slab', serif;
+}
+
+#lowermain{
+  flex: 20%;
+
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+/* align-items: center; */
+
+  background-color: lightgreen;
+}
+
+#left{
+  flex: 30%;
+
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #dc682e;
+ font-family: 'Roboto Slab', serif;
+}
+
+
+#right{
+  flex: 30%;
+
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f9e784;
+  font-family: 'Roboto Slab', serif;
+  
+}
+
+
+
+
+#navbar{
+  flex: 60%;
+  background-color: lightsalmon;
+  
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+#logo{
+  flex: 40%;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+
+
+
+
+}
+
+
+.navbar a {
+  float: left;
+  color: whitesmoke;
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+  font-size: 23px;
+ 
+
+}
+
+
+.navbar a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+
+ h1 {
+   font-size: 200%; 
+}
+
+
+#contacts{
+  flex: 30%;
+
+  display: flex;
+  flex-direction:column-reverse;
+  justify-content: center;
+  align-items: center;
+
+  
+ font-family: 'Roboto Slab', serif;
+}
